@@ -256,3 +256,40 @@ header .burger-menu {
 }
 
 /*fine quinta sezione del main*/
+
+/*FOOTER*/
+
+footer {
+    background-color: black;
+}
+
+footer .small-wrapper {
+    padding-top: 60px;
+}
+footer .menu li {
+    display: block;
+    padding: 7px 0;
+}
+footer .menu li a {
+    color: white;
+    text-transform: none;
+}
+
+.terms {
+    padding: 50px 0;
+}
+
+.terms a {
+    color: white;
+    text-decoration: none;
+
+}
+
+.terms a h4 {
+    font-size: 12px;
+}
+
+footer .appstore {
+    text-align: center;
+    padding-bottom: 50px;
+}
