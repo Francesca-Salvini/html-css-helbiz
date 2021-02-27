@@ -155,6 +155,9 @@ header .burger-menu {
     }
 }
 
+
+/*terza sezione main*/
+
 #scooter {
     background-image: url(../img/ScooterHelbiz-2400.jpg);
     height: 500px;
@@ -186,3 +189,43 @@ header .burger-menu {
 
 }
 
+/*fine terza sezione main*/
+
+/*quarta sezione main*/
+
+.servizi .col_content.sx {
+    height: 370px;
+    padding-top: 0;
+    background-color: #374857;
+    overflow: hidden;
+    position: relative;
+
+}
+.servizi .col_content.sx img {
+    padding-top: 100px;
+}
+
+.servizi .col_content.dx {
+    padding-top: 0;
+    height: 370px;
+    overflow: hidden;
+    position: relative;
+}
+
+.servizi .col_content .teaser {
+    position: absolute;
+   text-align: center;
+   top: 18%;
+   color: white;
+    
+}
+
+.servizi .col_content .teaser a {
+    text-decoration: none;
+    color: white;
+}
+
+
+
+
+/*fine quarta sezione main*/
