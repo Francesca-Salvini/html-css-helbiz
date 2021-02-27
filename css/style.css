@@ -108,7 +108,7 @@ header .burger-menu {
     background-color: #fafafa;  /*devo dargli lo stesso colore dell'immagine*/
 }
 .col_content img {
-    height: 400px;
+   max-width: 100%;
 }
 
 .col_content h2 {
@@ -127,19 +127,30 @@ header .burger-menu {
 }
 
 #phone {
-    background-image: url(); /*helbiz banner*/
+    background-image: url(../img/HelbizBanner.jpg); /*helbiz banner*/
     height: 500px;
 }
 
 #phone img {
-    height: 650px;
+    height: 550px;
     display: block;
     margin: auto;
     position: relative;
     top: 200px;
 }
 
-#info [class*="col-"] {
+.info [class*="col-"] {
     text-align: center;
     padding: 70px 0;
+}
+
+.info .container h3 {
+    font-weight: 100;
+    font-size: 20px;
+}
+
+@media all and (max-width:991px) {
+    .info {
+        padding-top: 350px;
+    }
 }
