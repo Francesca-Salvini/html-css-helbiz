@@ -229,3 +229,30 @@ header .burger-menu {
 
 
 /*fine quarta sezione main*/
+
+/*quinta sezione del main*/
+
+#pattern {
+    background-image: url(../img/Social-Banner.jpg);
+    height: 350px;
+    background-size: cover;
+    margin-top: 20px;
+    position: relative;
+}
+
+#pattern .teaser.block-centered {
+    background-color: white;
+    padding: 50px 90px;
+    text-align: center;
+}
+#pattern .teaser.block-centered h2 {
+    font-weight: 100;
+
+}
+
+#pattern .teaser.block-centered a {
+    color: black;
+    padding: 0 10px;
+}
+
+/*fine quinta sezione del main*/
