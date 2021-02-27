@@ -132,7 +132,7 @@ header .burger-menu {
 }
 
 #phone img {
-    height: 550px;
+    height: 500px;
     display: block;
     margin: auto;
     position: relative;
@@ -154,3 +154,35 @@ header .burger-menu {
         padding-top: 350px;
     }
 }
+
+#scooter {
+    background-image: url(../img/ScooterHelbiz-2400.jpg);
+    height: 500px;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    
+   
+}
+
+#scooter .container {
+    position: relative;
+  
+}
+
+#scooter .container h2 {
+    font-weight: 100;
+    font-size: 35px;
+}
+
+#scooter .container p {
+    font-size: 13px;
+    padding: 20px 0;
+}
+#scooter .container a {
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+
+}
+
